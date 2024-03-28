@@ -1,0 +1,49 @@
+{
+    "basics": {
+      "name": "Nithin",
+      "label": "Programmer",
+      "email": "nithinsankar0804@gmail.com",
+      "phone": "7548850939",
+      "location": {
+        "address": "42 nithin illam",
+        "postalCode": "6416542",
+        "city": "Tirupur",
+        "country": "India",
+        "region": "Indian"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "Nithin08"
+      }]
+    },
+    "education": [{
+      "institution": "KPRCAS",
+      "area": "Management",
+      "studyType": "Bachelor",
+      "startDate": "2021",
+      "endDate": "2024",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "skills": [{
+      "name": "Full Stack Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }]
+  }
