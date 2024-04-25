@@ -1,0 +1,46 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--primary-100);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#title {
+  margin-top: 2rem;
+
+}
+#description {
+  text-align: center;
+}
+
+#cards {
+  justify-content: center;
+  align-items: center;
+}
