@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <div>
+        <h3>Name<span>*</span></h3>
+        <div class="firstName">
+          <input type="text" id="firstName" name="firstName"><br>
+          <label for="firstName">First</label>
+        </div>
+
+        <div class="lastName">
+          <input type="text" id="lastName" name="lastName"><br>
+          <label for="lastName">Last</label>
+        </div><br><br>
+
+<div class="email">
+        <h3>Email<span>*</span></h3>
+        <input type="text" size="53"><br><br>
+        </div>
+
+        <div class="experience">
+        <h3>Your Experience<span>*</span></h3>
+        <div class="rating">
+        <input type="radio" name="star" id="star1">
+        <label for="star1"></label>
+        <input type="radio" name="star" id="star2">
+        <label for="star2"></label>
+        <input type="radio" name="star" id="star3">
+        <label for="star3"></label>
+        <input type="radio" name="star" id="star4">
+        <label for="star4"></label>
+        <input type="radio" name="star" id="star5">
+        <label for="star5"></label>
+        </div>
+        </div><br><br>
+
+  <div class="table1">
+    <h3 style="text-align:left;">How satisfied are you with<span>*</span></h3>
+<table>
+  <tr>
+    <th></th>
+    <td>Very Unsatisfied</td>
+    <td>Unsatisfied</td>
+    <td>Neutral</td>
+    <td>Satisfied</td>
+    <td>Very Satisfied</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;">Puchase</td>
+    <td><input type="radio" name="1"></td>
+    <td><input type="radio"name="1"></td>
+    <td><input type="radio"name="1"></td>
+    <td><input type="radio"name="1"></td>
+    <td><input type="radio"name="1"></td>
+  </tr>
+
+  <tr>
+  <td style="text-align:left;">Service</td>
+  <td><input type="radio" name="service"></td>
+  <td><input type="radio" name="service"></td>
+  <td><input type="radio" name="service"></td>
+  <td><input type="radio" name="service"></td>
+  <td><input type="radio" name="service"></td>
+</tr>
+
+<tr>
+<td style="text-align:left;">Company Overall</td>
+<td><input type="radio" name="3"></td>
+<td><input type="radio" name="3"></td>
+<td><input type="radio" name="3"></td>
+<td><input type="radio" name="3"></td>
+<td><input type="radio" name="3"></td>
+</tr>
+</table>
+  </div><br><br>
+
+  <div class="table1">
+    <h3 style="text-align:left;">How likely are you to<span>*</span></h3>
+<table>
+  <tr>
+    <th></th>
+    <td>Very Unlikely</td>
+    <td>Unlikely</td>
+    <td>Neutral</td>
+    <td>Likely</td>
+    <td>Very Likely</td>
+  </tr>
+  <tr>
+    <td style="text-align:left;">Buy from us again</td>
+    <td><input id="b" type="radio"name="4"></td>
+    <td><input id="b" type="radio"name="4"></td>
+    <td><input id="b" type="radio"name="4"></td>
+    <td><input id="b" type="radio"name="4"></td>
+    <td><input id="b" type="radio"name="4"></td>
+  </tr>
+
+  <td style="text-align:left;">Recommend our product to others</td>
+  <td><input type="radio"name="5"></td>
+  <td><input type="radio"name="5"></td>
+  <td><input type="radio"name="5"></td>
+  <td><input type="radio"name="5"></td>
+  <td><input type="radio"name="5"></td>
+</tr>
+
+<td style="text-align:left;">Recommend our company to others</td>
+<td><input type="radio"name="6"></td>
+<td><input type="radio"name="6"></td>
+<td><input type="radio"name="6"></td>
+<td><input type="radio"name="6"></td>
+<td><input type="radio"name="6"></td>
+</tr>
+</table>
+  </div><br><br>
+
+  <div class="content">
+    <h3>Additional comments or suggestions</h3>
+    <textarea name="text" rows="10" cols="92"></textarea>
+  </div><br><br>
+
+  <input id="a" type="submit" value="Submit">
+
+      </div>
+    </form>
+<script>
+  const rating = document.querySelector(".star");
+  </script>
+  </body>
+</html>
