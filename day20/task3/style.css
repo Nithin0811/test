@@ -1,0 +1,18 @@
+/* Custom CSS */
+body {
+    padding-top: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #crimeData {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+  }
+  
