@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const userRoutes = require("./routes/userRoutes")
+require("dotenv").config();
 const app = express();
 const PORT = 1000;
 
@@ -13,7 +14,7 @@ app.use("/apiUser", userRoutes);
 // app.use("/apiProducts", productsRoutes);
 
 mongoose
-    .connect("mongodb://localhost:27017/user-crud")
+    .connect(process.env.MONGODB)
     .then(() => {
         console.log("connected to MongoDB");
         app.listen(PORT, () => {
