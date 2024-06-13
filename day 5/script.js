@@ -1,4 +1,3 @@
-"use strict";
 
 // Create your own resume data in JSON format
 var resume = {
