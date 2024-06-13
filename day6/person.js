@@ -21,5 +21,5 @@ class Person{
         nationality:${this.nationality}`)
     }
 }
-let Person1=new Person("Nithin","5.5","74","21","BBA CA","Tirupur","TamilNadu","Indian")
+let Person1=new Person("Nithin","5.5","65","21","BBA CA","Tirupur","TamilNadu","Indian")
 Person1.details()
