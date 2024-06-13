@@ -12,10 +12,8 @@ var resume = {
   Age: 20,
   Marks: { "BBA": "CGPA 7.35", "Higher secondary": "82%", SSLC: "79%" },
   Qualification: "BBA [Computer Applications]",
-  Years_of_Experience: 0,
   Software_proficiency: [
     "javascript",
-    "node",
     "React",
     "HTML",
     "css",
