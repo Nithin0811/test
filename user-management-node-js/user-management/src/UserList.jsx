@@ -26,8 +26,9 @@ function UserList() {
 
     const addUser = async (user) => {
         try {
+            // console.log("Axios check", axios.post(`https://jsonplaceholder.typicode.com/users/`, user));
             // const response = await axios.post(`https://jsonplaceholder.typicode.com/users/`, user);
-            const response = await axios.post(`http://localhost:1000/apiUser/users`, user);
+            const response = await axios.post(`https://node-usermanagement-v06t.onrender.com/apiUser/users/`, user);
             setUsers([...users, response.data]);
             setEditingUser(null);
             showSnackbar('User addes successfully', 'success');
@@ -39,9 +40,7 @@ function UserList() {
 
     const updateUser = async (user) => {
         try {
-            // await axios.put(`https://jsonplaceholder.typicode.com/users/${user.id}`, user);
-            // setUsers(users.map((u) => (u.id === user.id ? user : u)));
-            await axios.put(`http://localhost:1000/apiUser/users/${user._id}`, user);
+            await axios.put(`https://node-usermanagement-v06t.onrender.com/apiUser/users/${user._id}`, user);
             fetchUsers();
             setEditingUser(null);
             showSnackbar('User updated successfully', 'success');
@@ -53,8 +52,7 @@ function UserList() {
 
     const deleteUser = async (id) => {
         try {
-            // await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
-            await axios.delete(`http://localhost:1000/apiUser/users${id}`);
+            await axios.delete(`https://node-usermanagement-v06t.onrender.com/apiUser/users/${id}`);
             fetchUsers();
             showSnackbar('User deleted Successfully', 'success');
         } catch (error) {
@@ -72,7 +70,7 @@ function UserList() {
     }
     return (
         <Container>
-            <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
+            <Paper style={{ padding: '20px', marginTop: '20px' }}>
                 <Typography variant='h4' gutterBottom>User Management</Typography>
                 <Grid container spacing={3}>
                     {users.map((user) => (
