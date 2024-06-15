@@ -1,0 +1,126 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Mens White Shirt ",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 1500,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Louis Phillipe",
+            "category": "smartphones",
+            "thumbnail": "https://i5.walmartimages.com/asr/f421e994-7eab-4d51-9dd8-a6e92be834c7.14d27855a53b8a2cbf1704b52e0c2071.jpeg",
+            "images": [
+                "https://i5.walmartimages.com/asr/f421e994-7eab-4d51-9dd8-a6e92be834c7.14d27855a53b8a2cbf1704b52e0c2071.jpeg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Mens Denim Jogger Pants ",
+            "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+            "price": 999,
+            "discountPercentage": 17.94,
+            "rating": 4.44,
+            "stock": 34,
+            "brand": "Apple",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+            "images": [
+                "https://modone.com/eng_pl_Mens-denim-jogger-pants-P663-blue-6672_2.jpg"
+              
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Mens Hoddies",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 800 ,
+            "discountPercentage": 15.46,
+            "rating": 4.09,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+            "images": [
+                "https://tse1.mm.bing.net/th?id=OIP.yEIkFs96YbiXpFcvy3CjLAHaJ4&pid=Api&P=0&h=180"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Men Boxer",
+            "description": "OPPO F19 is officially announced on April 2021.",
+            "price": 400,
+            "discountPercentage": 17.91,
+            "rating": 4.3,
+            "stock": 123,
+            "brand": "Apple",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/91ngNBLerUL._UL1500_.jpg"
+             
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Mens Denim Shorts",
+            "description": "Processor: Apple M1 Display: 33.78 cms (13.3 inches) LED-Backlit Memory: 8GB DDR4 RAM, 256GB SSD ROM OS: macOS Big Sur Warranty: 1 Year Onsite",
+            "price": 600,
+            "discountPercentage": 10.58,
+            "rating": 4.09,
+            "stock": 32,
+            "brand": "Apple",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+            "images": [
+                "https://tse2.mm.bing.net/th?id=OIP.ZBKvRa0yL7evfdpaqPYh5wHaJ4&pid=Api&P=0&h=180"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Mens Casual Shoe",
+            "description": "with Sports Band (45mm Retina LTPO OLED Display, Starlight Aluminium Case) Sleep Monitor | ECG Monitor | Heart Rate | SPO2 Upto 18 Hours Battery Life",
+            "price": 1899,
+            "discountPercentage": 10.58,
+            "rating": 4.09,
+            "stock": 32,
+            "brand": "Huawei",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+            "images": [
+                "https://tse1.mm.bing.net/th?id=OIP.zTQgz0Xht2Gnjg5uYZq4ywHaHa&pid=Api&P=0&h=180"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Mens Crocs",
+            "description": "Effective Pixels: 24.1 MP  Video Resolution: Full HD at 29.97 FPS Sensor: CMOS, APS-C (22.3 x 14.9mm) 2 Years Product Warranty  9 Point AF, Built-in Speaker, 11 Custom Functions ",
+            "price": 7999,
+            "discountPercentage": 10.58,
+            "rating": 4.09,
+            "stock": 32,
+            "brand": "Canon",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+            "images": [
+                "https://images-na.ssl-images-amazon.com/images/I/81OpJZD9eiL.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Men Sports Shoe",
+            "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+            "price": 6500,
+            "discountPercentage": 10.58,
+            "rating": 4.09,
+            "stock": 32,
+            "brand": "Apple",
+            "category": "smartphones",
+            "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+            "images": [
+                "https://i5.walmartimages.com/asr/dacc33d1-ca2c-4559-8121-0075a70c2968_1.dd8b1fc6a0dc476ba722861581752f84.jpeg"
+            ]
+        }
+    ]
+}
